@@ -26,7 +26,7 @@ const useAppInitialLoad = () => {
         try {
             // const { data: books } = await http.get(bookApi)
             // setBooks(books)
-            const { data } = await http.get("http://localhost:5173/data.json")
+            const { data } = await http.get("https://elibrary.elsamani.com/data.json")
             setData(data)
 
             if (Object.keys(user) > 0) {
