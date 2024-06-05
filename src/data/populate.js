@@ -239,7 +239,7 @@ function populate({ users, publishers, authors, books, borrowings }) {
 
 }
 
-const data = populate({ users: 150, publishers: 100, authors: 300, books: 5230, borrowings: 9800 })
+const data = populate({ users: 100, publishers: 30, authors: 30, books: 120, borrowings: 480 })
 // const data = populate({ users: 1, publishers: 1, authors: 1, books: 1, borrowings: 1 })
 
 const dataJson = JSON.stringify(data, null, 2);
